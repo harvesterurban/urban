@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bootStrap3</title>
+
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+	<link type="text/css" rel="stylesheet" href="css/offcanvas.css">
+	<link type="text/css" rel="stylesheet" href="css/bootstrap-lightbox.css">
+	<link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap-combined.min.css">
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top ">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">UrbanHravester.org</a>
+				<div class="container">
+					<a href="login.html" class="navbar-btn btn-warning btn pull-right" >LogIn</a>
+					<a href="register.html" class="navbar-btn btn-info btn pull-right"style="margin-right: 10px;">Register</a>
+				</div>
+				<button class="navbar-toggle" data-toggle ="collapse" data-target = ".navHeaderCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="container" style="background-color: white;">
+		<div class="navbar-header">
+			<img src="img/urban.png" width="100%" height="300px">
+		</div>
+		<div class="navbar-header pull-right collapse navbar-collapse navHeaderCollapse">
+			<input type="text" class="span3 search-query" placeholder="Search..">
+			<button class="btn btn-primary">Search</button>
+		</div>
+	</div>
+		<div class="container" style="background-color: #242b38;">
+			<div class="collapse navbar-collapse navHeaderCollapse" >
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="index.html">Our Mission</a></li>
+					<li><a href="contact.html">Help Us Grow</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Contact Urban Harvester</a></li>
+							<li><a href="#">Higjlights</a></li>
+							<li><a href="#">Partner Agency</a></li>
+						</ul>
+					</li> 
+					<li><a href="feature.html">Donate/Recieve Food</a></li>
+					<li><a href="about.html">Photos</a></li>
+					<li><a href="#contact" data-toggle="modal">Media</a></li>
+				</ul>
+			</div>
+		</div>
+	<div class="container" style="margin-bottom: 80px;">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Contact Form</h2> <hr />
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label for="name" class="col-sm-2 control-label">Name</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control" placeholder="type your name here..">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="email" class="col-sm-2 control-label">E-mail</label>
+						<div class="col-sm-6">
+							<input type="email" class="form-control" placeholder="type your email here..">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="messsage" class="col-sm-2 control-label">Message</label>
+						<div class="col-sm-6">
+							<textarea class="form-control" rows="3" placeholder="Enter your message here...."></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="gender" class="col-sm-2 control-label">Gender</label>
+						<div class="col-sm-6">
+							<label class="radio-inline">
+								<input type="radio" class="donor" name="genderRadio" id="4" value="option1"> Donor
+							</label>
+							<label class="radio-inline">
+								<input type="radio" class="donor" name="genderRadio" id="5" value="option2"> Recipient
+							</label>
+							<label class="radio-inline">
+								<input type="radio" class="donor" name="genderRadio" id="6" value="option2"> Transporter
+							</label>
+						</div>
+					</div>
+			
+						
+					<div class="form-group donor1" id="1">
+						<div class="container">
+						<h4>How manu shopping carts of recovered food do you generate per day?</h4>
+						<label for="email" class="col-sm-2 control-label">Shopping carts per day</label>
+						<div class="col-sm-6">
+							<input type="email" class="form-control" placeholder="enter value here..">
+						</div>
+					</div>
+					<div class="container">
+						<div class="form-group">
+						<label for="website" class="col-sm-2 control-label">What days of the week can you deliver food donations?</label>
+							<div class="col-sm-6">
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option1"> Mon
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option2"> Tue
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Wed
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Thu
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Fri
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Sat
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Sun
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="form-group">
+						<label for="gender" class="col-sm-2 control-label">Does any of your food donation require refrigeration?</label>
+						<div class="col-sm-6">
+							<label class="radio-inline">
+								<input type="radio" class="donor" name="genderRadio" id="4" value="option1"> Yes
+							</label>
+							<label class="radio-inline">
+								<input type="radio" class="donor" name="genderRadio" id="5" value="option2"> No
+							</label>
+						</div>
+					</div>
+					</div>
+					<div class="container">
+						<div class="form-group">
+						<label for="gender" class="col-sm-2 control-label">Does any of your food donation require freezers</label>
+						<div class="col-sm-6">
+							<label class="radio-inline">
+								<input type="radio" class="donor" name="genderRadio" id="4" value="option1"> Yes
+							</label>
+							<label class="radio-inline">
+								<input type="radio" class="donor" name="genderRadio" id="5" value="option2"> No
+							</label>
+						</div>
+					</div>
+					</div>
+					<div class="container">
+						<div class="form-group">
+						<label for="gender" class="col-sm-2 control-label">Is your comapny willing to deliver the food locally?</label>
+						<div class="col-sm-6">
+							<label class="radio-inline">
+								<input type="radio" class="donor" name="genderRadio" id="4" value="option1"> Yes
+							</label>
+							<label class="radio-inline">
+								<input type="radio" class="donor" name="genderRadio" id="5" value="option2"> No
+							</label>
+						</div>
+					</div>
+					</div>
+				</div>
+					<div class="form-group" id="2">
+						<div class="container">
+							<h4>How manu shopping carts of recovered food do you generate per day?</h4>
+							
+							<label for="email" class="col-sm-2 control-label">Hot meals: </label>
+							<div class="col-sm-6">
+								<input type="email" class="form-control" placeholder="enter value here..">
+							</div><br><br>
+							<label for="email" class="col-sm-2 control-label">Sack meals: </label>
+							<div class="col-sm-6">
+								<input type="email" class="form-control" placeholder="enter value here..">
+							</div><br><br>
+							<label for="email" class="col-sm-2 control-label">Bags of groceries with perishables: </label>
+							<div class="col-sm-6">
+								<input type="email" class="form-control" placeholder="enter value here..">
+							</div><br><br><br>
+							<label for="email" class="col-sm-2 control-label">Bags of groceries with dry goods only: </label>
+							<div class="col-sm-6">
+								<input type="email" class="form-control" placeholder="enter value here..">
+							</div>
+						</div>
+						<div class="container">
+							<div class="form-group">
+							<label for="gender" class="col-sm-2 control-label">Can you accept perishable trays of prepared food from commerical litchens that require reheating?</label>
+							<div class="col-sm-6">
+								<label class="radio-inline">
+									<input type="radio" class="donor" name="genderRadio" id="4" value="option1"> Yes
+								</label>
+								<label class="radio-inline">
+									<input type="radio" class="donor" name="genderRadio" id="5" value="option2"> No
+								</label>
+							</div>
+							</div>
+						</div>
+						<div class="container">
+							<h4>What is the maximum number of shopping carts full of food you can accept per day?</h4>
+							
+							<label for="email" class="col-sm-2 control-label">Shopping carts per day:  </label>
+							<div class="col-sm-6">
+								<input type="email" class="form-control" placeholder="enter value here..">
+							</div>
+						</div>
+						<div class="container">
+						<div class="form-group">
+						<label for="website" class="col-sm-2 control-label">What days of the week can you deliver food donations?</label>
+							<div class="col-sm-6">
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option1"> Mon
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option2"> Tue
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Wed
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Thu
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Fri
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Sat
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Sun
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="form-group">
+							<label for="gender" class="col-sm-2 control-label">Do you have refrigerators?</label>
+							<div class="col-sm-6">
+								<label class="radio-inline">
+									<input type="radio" class="donor" name="genderRadio" id="4" value="option1"> Yes
+								</label>
+								<label class="radio-inline">
+									<input type="radio" class="donor" name="genderRadio" id="5" value="option2"> No
+								</label>
+							</div><br><br><br>
+							<label for="gender" class="col-sm-2 control-label">Do you have freezers?</label>
+							<div class="col-sm-6">
+								<label class="radio-inline">
+									<input type="radio" class="donor" name="genderRadio" id="4" value="option1"> Yes
+								</label>
+								<label class="radio-inline">
+									<input type="radio" class="donor" name="genderRadio" id="5" value="option2"> No
+								</label>
+							</div><br><br><br>
+							<label for="gender" class="col-sm-2 control-label">Is your agency willing to pick up the food locally?</label>
+							<div class="col-sm-6">
+								<label class="radio-inline">
+									<input type="radio" class="donor" name="genderRadio" id="4" value="option1"> Yes
+								</label>
+								<label class="radio-inline">
+									<input type="radio" class="donor" name="genderRadio" id="5" value="option2"> No
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="form-group">
+							<label for="messsage" class="col-sm-2 control-label">Are there any special delivery instructions about food coming to your facility?</label>
+							<div class="col-sm-6">
+								<textarea class="form-control" rows="3" placeholder="Enter your message here...."></textarea>
+							</div>
+						</div>
+					</div>
+
+
+					</div>
+
+
+					<div class="form-group" id="3">
+						<h4>What is the maximum number of shopping carts full of food you can deliver per day?</h4>
+						<label for="email" class="col-sm-2 control-label">Shopping carts full: </label>
+						<div class="col-sm-6">
+							<input type="email" class="form-control" placeholder="enter the value here..">
+						</div><br><br>
+						<div class="container">
+						<div class="form-group">
+						<label for="website" class="col-sm-2 control-label">What days of the week can you deliver food donations?</label>
+							<div class="col-sm-6">
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option1"> Mon
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option2"> Tue
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Wed
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Thu
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Fri
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Sat
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Sun
+								</label>
+							</div><br><br><br><br><br>
+							<label for="website" class="col-sm-2 control-label">Are your drivers volunteer or staff?</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Volunteer
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Staff
+								</label><br><br><br>
+							<label for="website" class="col-sm-2 control-label">Does your vehicle have (choose all that apply): </label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Refrigeration
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Freezer
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Coolers
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Thermal Blankets
+								</label>								
+
+						</div>
+					</div>
+
+
+					</div>
+
+
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-6">
+							<button type="submit" class="btn btn-primary">Submit</button>
+							<button type="reset" class="btn btn-default">Clear</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text pull-left">Site built by FrugalLab(SCU)</p>
+			<a href="http://youtube.com" class="navbar-btn btn-danger btn pull-right">Subcribe on YouTube</a>
+		</div>
+	</div>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js" ></script>
+<script src="js/bootstrap.js"></script>
+<!-- <script src="js/offcanvas.js"></script> -->
+<!-- <script src="js/popover.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/bootstrap-lightbox.js"></script> -->
+<script src="js/urban.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
